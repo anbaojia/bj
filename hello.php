@@ -4,10 +4,12 @@
 	*/
 	class ClassName extends AnotherClass
 	{
-		
-		function __construct(argument)
+		protected $name = '';
+		protected $age = '';
+		function __construct()
 		{
-			# code...
+			$this->name = 'wuyanzu';
+			$this->age = '18';
 		}
 	}
 ?>
